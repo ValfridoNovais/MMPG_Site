@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">
+    <title>MMPG Novais - Imagens</title>
+</head>
+<body>
+    <h1>Imagens Dinâmicas</h1>
+    <p>Vamos criar umas imagens dinâmicas que se adequam com o tamanho do navegador</p>
+
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/foto-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/foto-m.png" type="image/png">
+        <img src="imagens/foto-g.png" alt="Foto Dinamicas">
+    </picture>
+
+    <h1>Reproduzindo audio</h1>
+    <audio src="midia/MOTIVAÇÃO - Vá e Vença!.mp3" controls autoplay></audio>
+
+    <audio preload="metadata" autoplay controls loop>
+        <source src="midia/MOTIVAÇÃO - Vá e Vença!.mp3" type="audio/mpeg">
+    </audio>
+    
+</body>
+</html>

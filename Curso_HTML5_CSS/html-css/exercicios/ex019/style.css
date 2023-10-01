@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+/*  HTML id = CSS # || Ex: id="principal" h1#principal{}
+    HTML class = css . || class="basico" .basico{}*/
+body{
+   background-color: #958de89b;
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+
+h1{
+    color: rgba(33, 23, 183, 0.904);
+}
+
+h1#principal{
+    text-align: center;
+    background-color: rgba(82, 70, 245, 0.58);
+    border-radius: 10cqw;
+    color: white;
+}
+
+h2{
+    color: rgba(87, 78, 219, 0.86);
+}
+
+.basico{
+    background-color: blue;
+}
+
+.intermediario{
+    color: red;
+    font-size: large;
+}

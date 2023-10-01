@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">
+    <title>MMPG Novais - Pseudo Classes</title>
+
+    <style>
+        div{
+            display: inline-block;
+            background-color: lightgray;
+            border: 1px solid black;
+            height: 200px;
+            width: 200px;
+        }
+        div > p{
+            display: none;
+        }
+        div > ul{
+            display: none;
+        }
+        div:hover > p{
+            display: block;
+            background-color: red;
+            color: white;
+            width: 190px;
+        }
+        div:hover > ul{
+            display: block;
+            background-color: red;
+            color: white;
+            width: 150px;
+        }
+        div:hover{
+            background-color: yellow;
+        }
+    </style>
+</head>
+<body>
+    <div>01
+        <p>Este bloco possui uma mensagem escondida
+             <ul>
+                <li>Quem somos</li>
+                <li>Historia da Empresa</li>
+                <li>Produtos</li>
+                <li>Endereços</li></p>
+             </ul>
+    </div>
+    <div>02</div>
+    <div>03</div>
+</body>
+</html>
